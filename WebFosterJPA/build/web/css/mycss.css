@@ -1,0 +1,38 @@
+header {
+    background-color: #171847;
+}
+footer{
+    background-color: #171847;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+a {
+    text-decoration: none;
+}
+.text-azul {
+	color: #afc8ff;
+}
+
+/* 
+    Created on : 11-ene-2018, 12:01:25
+    Author     : pacopulido
+*/
+.rating {
+    font-size: 0 ;
+    display: inline-block ;
+}
+.rating a {
+    text-decoration: none ;
+    display: inline-block ;
+    font-size: 32px ;
+    font-size: 2rem ;    
+    color: #888 ;
+}
+.rating:hover a {
+    color: gold ;
+}
+.rating > a:hover ~ a {
+    color: #888 ;
+}
